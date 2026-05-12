@@ -1486,11 +1486,11 @@
                     </div>
                 </div>
 
-                <!-- 財務狀況 & 人事成本分析 -->
+                <!-- 營收 vs 成本 -->
                 <div class="card expanded" id="card-stay1-finance">
                     <div class="card-header" onclick="toggleCard('card-stay1-finance')">
                         <div class="card-header-left">
-                            <h3 class="card-title">💰 財務狀況 & 人事成本分析</h3>
+                            <h3 class="card-title">💰 營收 vs 成本</h3>
                         </div>
                         <div class="card-actions">
                             <button class="share-btn" onclick="shareCard(event, 'card-stay1-finance')">📤 分享</button>
@@ -1854,51 +1854,64 @@
 
 
                             
-                            <!-- 第四區：收款狀況 -->
-                            <div>
-                                <h4 style="font-size: 18px; font-weight: 700; color: #129AB4; margin-bottom: 16px;">💵 收款狀況</h4>
-                                <div class="two-col-grid">
-                                    <div class="info-card">
-                                        <div class="info-card-title">本月收款</div>
-                                        <div class="progress-bar-container">
-                                            <div class="progress-label">
-                                                <span>已收款</span>
-                                                <span style="font-weight: 600;">$240萬 (84.2%)</span>
-                                            </div>
-                                            <div class="progress-bar">
-                                                <div class="progress-fill" style="width: 84.2%">84.2%</div>
-                                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 收款狀況 -->
+                <div class="card" id="card-stay1-collection">
+                    <div class="card-header" onclick="toggleCard('card-stay1-collection')">
+                        <div class="card-header-left">
+                            <h3 class="card-title">收款狀況</h3>
+                        </div>
+                        <div class="card-actions">
+                            <button class="share-btn" onclick="shareCard(event, 'card-stay1-collection')">📤 分享</button>
+                            <span class="card-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="two-col-grid">
+                                <div class="info-card">
+                                    <div class="info-card-title">本月收款</div>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-label">
+                                            <span>已收款</span>
+                                            <span style="font-weight: 600;">$240萬 (84.2%)</span>
                                         </div>
-                                        <div class="progress-bar-container" style="margin-top: 16px;">
-                                            <div class="progress-label">
-                                                <span>未收款</span>
-                                                <span style="font-weight: 600;">$45萬 (15.8%)</span>
-                                            </div>
-                                            <div class="progress-bar">
-                                                <div class="progress-fill" style="width: 15.8%; background: #ffc107;">15.8%</div>
-                                            </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 84.2%">84.2%</div>
                                         </div>
                                     </div>
-                                    <div class="info-card">
-                                        <div class="info-card-title">收款效率</div>
-                                        <ul class="info-list">
-                                            <li>
-                                                <span class="info-list-label">平均收款天數</span>
-                                                <span class="info-list-value">18天</span>
-                                            </li>
-                                            <li>
-                                                <span class="info-list-label">超過30天</span>
-                                                <span class="info-list-value" style="color: #ffc107;">$12萬</span>
-                                            </li>
-                                            <li>
-                                                <span class="info-list-label">收款達成率</span>
-                                                <span class="info-list-value" style="color: #28a745;">92.3%</span>
-                                            </li>
-                                        </ul>
+                                    <div class="progress-bar-container" style="margin-top: 16px;">
+                                        <div class="progress-label">
+                                            <span>未收款</span>
+                                            <span style="font-weight: 600;">$45萬 (15.8%)</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 15.8%; background: #ffc107;">15.8%</div>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="info-card">
+                                    <div class="info-card-title">收款效率</div>
+                                    <ul class="info-list">
+                                        <li>
+                                            <span class="info-list-label">平均收款天數</span>
+                                            <span class="info-list-value">18天</span>
+                                        </li>
+                                        <li>
+                                            <span class="info-list-label">超過30天</span>
+                                            <span class="info-list-value" style="color: #ffc107;">$12萬</span>
+                                        </li>
+                                        <li>
+                                            <span class="info-list-label">收款達成率</span>
+                                            <span class="info-list-value" style="color: #28a745;">92.3%</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
